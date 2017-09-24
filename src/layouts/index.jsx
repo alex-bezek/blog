@@ -1,7 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
-import Navigation from '../components/molecules/navigation';
+import NavigationContainer from '../components/molecules/navigation/NavigationContainer';
+import Jumbotron from '../components/atoms/jumbotron/Jumbotron';
+import './Layout.scss';
 
 
 export default class MainLayout extends React.Component {
@@ -27,7 +29,12 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <Navigation />
+        <div className="main-content">
+          <div className="JumbotronContainer">
+            <Jumbotron />
+          </div>
+          <NavigationContainer />
+        </div>
         {children()}
       </div>
     );

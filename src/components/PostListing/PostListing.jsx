@@ -1,5 +1,6 @@
 import React from "react";
-import Link from "gatsby-link";
+import PostLink from  '../molecules/post-link/PostLink';
+import './PostListing.scss';
 
 class PostListing extends React.Component {
   getPostList() {
@@ -10,6 +11,7 @@ class PostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         cover: postEdge.node.frontmatter.cover,
         title: postEdge.node.frontmatter.title,
+        category: postEdge.node.frontmatter.category,
         date: postEdge.node.frontmatter.date,
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead
@@ -20,16 +22,17 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div  style={{border: '2px black solid'}}>
-        <h5>Posts Listing</h5>
-        {/* Your post list here. */
-        postList.map(post =>
-          (<Link to={post.path} key={post.title}>
-            <h1>
-              {post.title}
-            </h1>
-          </Link>)
-        )}
+      <div className='PostLink-columns'>
+        {
+          postList.map(post =>
+            (
+              <PostLink
+                title={post.title}
+                category={post.category}
+              />
+            )
+          )
+        }
       </div>
     );
   }
