@@ -1,6 +1,6 @@
 ---
 title: "Generating Data For Consistent Metrics"
-cover: ""
+image: ""
 date: "09/09/2017"
 category: "devops"
 tags:

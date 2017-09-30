@@ -1,6 +1,6 @@
 ---
 title: "Using AWS Lambda For Dynamic Assets"
-cover: ""
+image: ""
 date: "09/09/2017"
 category: "devops"
 tags:

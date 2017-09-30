@@ -23,7 +23,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               node {
                 frontmatter {
                   tags
-                  category
+                  category,
+                  image
                 }
                 fields {
                   slug

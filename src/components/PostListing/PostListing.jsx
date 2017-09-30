@@ -9,7 +9,7 @@ class PostListing extends React.Component {
       postList.push({
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
-        cover: postEdge.node.frontmatter.cover,
+        image: postEdge.node.frontmatter.image,
         title: postEdge.node.frontmatter.title,
         category: postEdge.node.frontmatter.category,
         date: postEdge.node.frontmatter.date,
@@ -22,17 +22,22 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div className='PostLink-columns'>
-        {
-          postList.map(post =>
-            (
-              <PostLink
-                title={post.title}
-                category={post.category}
-              />
+      <div>
+        <div className="PostLink-categories" />
+        <div className='PostLink-columns'>
+          {
+            postList.map(post =>
+              (
+                <PostLink
+                  title={post.title}
+                  image={post.image}
+                  category={post.category}
+                  path={post.path}
+                />
+              )
             )
-          )
-        }
+          }
+        </div>
       </div>
     );
   }

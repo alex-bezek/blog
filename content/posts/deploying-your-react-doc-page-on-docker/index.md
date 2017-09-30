@@ -1,6 +1,6 @@
 ---
 title: "Deploying Your React Doc Page On Docker"
-cover: ""
+image: ""
 date: "09/09/2017"
 category: "devops"
 tags:

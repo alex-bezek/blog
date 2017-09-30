@@ -37,8 +37,16 @@ export const pageQuery = graphql`
           frontmatter {
             title
             tags
-            cover
             date
+            image {
+              childImageSharp {
+                responsiveSizes(maxWidth: 690) {
+                  src
+                  srcSet
+                  sizes
+                }
+              }
+            }
           }
         }
       }

@@ -1,6 +1,6 @@
 ---
 title: "Problems Using css Variables Defining A Root In A UI Library"
-cover: ""
+image: ""
 date: "09/09/2017"
 category: "ui"
 tags:

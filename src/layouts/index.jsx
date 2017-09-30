@@ -29,13 +29,15 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <div className="main-content">
-          <div className="JumbotronContainer">
+        <div className="LayoutIndex-main-content">
+          <div className="LayoutIndex-JumbotronContainer">
             <Jumbotron />
           </div>
           <NavigationContainer />
         </div>
-        {children()}
+        <div className='LayoutIndex-page-content'>
+          {children()}
+        </div>
       </div>
     );
   }
