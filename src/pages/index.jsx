@@ -38,15 +38,7 @@ export const pageQuery = graphql`
             title
             tags
             date
-            image {
-              childImageSharp {
-                responsiveSizes(maxWidth: 690) {
-                  src
-                  srcSet
-                  sizes
-                }
-              }
-            }
+            image 
           }
         }
       }

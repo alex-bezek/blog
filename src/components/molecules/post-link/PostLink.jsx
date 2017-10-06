@@ -19,19 +19,20 @@ const PostLink = ({
   title,
   image
   }) => (
-    <Link to={path} key={path}>
-      <div className="PostLink-card">
+    <div className="PostLink-card">
+      <Link to={path} key={path}>
+
         {/* <h1>{image}</h1> */}
         {
           image ?
-            <img src={image} alt="" />
+            <img className="PostLink-image" src={image} alt="" />
             :
             <img className="PostLink-image" src="http://archsmarter.com/wp-content/uploads/2014/03/Learn-to-code1.jpg" />
         }
         <span>{category}</span>
         <span>{title}</span>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 
 PostLink.propTypes = propTypes;

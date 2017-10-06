@@ -1,6 +1,6 @@
 ---
 title: "Trying Something New"
-image: "./squares.png"
+image: "https://edge.alluremedia.com.au/m/g/2015/11/20151119_085112.jpg"
 date: "09/09/2017"
 category: "tech"
 tags:
