@@ -21,7 +21,9 @@ const PostLink = ({
   }) => (
     <div className="PostLink-card">
       <Link to={path} key={path}>
-
+        {
+          console.log(image)
+        }
         {/* <h1>{image}</h1> */}
         {
           image ?

@@ -38,7 +38,13 @@ export const pageQuery = graphql`
             title
             tags
             date
-            image 
+            image {
+              childImageSharp {
+                original {
+                  src
+                }
+              }
+            }
           }
         }
       }
