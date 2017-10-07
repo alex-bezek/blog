@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import './Index.scss';
 
 class Index extends React.Component {
   render() {
@@ -36,8 +37,14 @@ export const pageQuery = graphql`
           frontmatter {
             title
             tags
-            cover
             date
+            image {
+              childImageSharp {
+                original {
+                  src
+                }
+              }
+            }
           }
         }
       }

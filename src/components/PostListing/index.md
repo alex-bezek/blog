@@ -1,6 +1,6 @@
 ---
 title: "Trying Something New"
-image: "./thumbnail.jpg"
+cover: "./squares.png"
 date: "09/09/2017"
 category: "tech"
 tags:

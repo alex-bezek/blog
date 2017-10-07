@@ -1,0 +1,35 @@
+.nav {
+  background-color: rgb(3, 22, 51);
+  height: 50px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    li {
+      display: inline;
+      line-height: 50px;
+      font-size: 20px;
+      height: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      &:hover {
+        background-color: red;
+      }
+    }
+
+    li.name a {
+      color: rgb(4, 122, 54);
+      float: left;
+      padding-left: 120px;
+    }
+  }
+}

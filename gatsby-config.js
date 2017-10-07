@@ -17,14 +17,16 @@ module.exports = {
     }
   },
   plugins: [
+    `gatsby-plugin-sass`,
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        path: `${__dirname}/${config.blogPostDir}`
       }
     },
+    `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -119,6 +121,7 @@ module.exports = {
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
+                image: edge.node.frontmatter.image,
                 description: edge.node.excerpt,
                 author: rssMetadata.author,
                 url: rssMetadata.site_url + edge.node.fields.slug,
@@ -140,7 +143,7 @@ module.exports = {
                     fields { slug }
                     frontmatter {
                       title
-                      cover
+                      image
                       date
                       category
                       tags

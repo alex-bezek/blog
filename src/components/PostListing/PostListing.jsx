@@ -1,5 +1,6 @@
 import React from "react";
-import Link from "gatsby-link";
+import PostLink from  '../molecules/post-link/PostLink';
+import './PostListing.scss';
 
 class PostListing extends React.Component {
   getPostList() {
@@ -8,8 +9,9 @@ class PostListing extends React.Component {
       postList.push({
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
-        cover: postEdge.node.frontmatter.cover,
+        image: postEdge.node.frontmatter.image.childImageSharp.original.src,
         title: postEdge.node.frontmatter.title,
+        category: postEdge.node.frontmatter.category,
         date: postEdge.node.frontmatter.date,
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead
@@ -20,16 +22,22 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div  style={{border: '2px black solid'}}>
-        <h5>Posts Listing</h5>
-        {/* Your post list here. */
-        postList.map(post =>
-          (<Link to={post.path} key={post.title}>
-            <h1>
-              {post.title}
-            </h1>
-          </Link>)
-        )}
+      <div>
+        <div className="PostLink-categories" />
+        <div className='PostLink-columns'>
+          {
+            postList.map(post =>
+              (
+                <PostLink
+                  title={post.title}
+                  image={post.image}
+                  category={post.category}
+                  path={post.path}
+                />
+              )
+            )
+          }
+        </div>
       </div>
     );
   }

@@ -1,0 +1,15 @@
+.PostLink-card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+
+  .PostLink-image {
+    border-radius: 3px;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,5 +1,5 @@
 module.exports = {
-  blogPostDir: "posts", // The name of directory that contains your posts.
+  blogPostDir: "content/posts", // The name of directory that contains your posts.
   siteTitle: "Alex Bezek's Blog", // Site title.
   siteTitleAlt: "Alex Bezek's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
