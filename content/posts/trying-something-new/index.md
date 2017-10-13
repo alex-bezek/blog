@@ -4,8 +4,8 @@ image: "./thumbnail.jpg"
 date: "09/09/2017"
 category: "tech"
 tags:
-    - drawing
-    - design
+  - drawing
+  - design
 ---
 
 Why not start all the new things at once right? In programming, we all know its obviously best to change multiple variables, edit every file, and then run your program after hours of coding and pray it works. What could go wrong?
