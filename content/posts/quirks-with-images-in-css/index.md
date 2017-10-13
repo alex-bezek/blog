@@ -4,8 +4,8 @@ image: "use-CSS.png"
 date: "09/09/2017"
 category: "ui"
 tags:
-    - css
-    - css variables
+  - css
+  - css variables
 ---
 
 It causes issues.
