@@ -1,10 +1,10 @@
 ---
 title: "Jsx vs Js"
 image: "react-jsx.png"
-date: "10/12/2017"
+date: "10/17/2017"
 category: "frontend"
 tags:
-    - react
+  - react
 ---
 
 For some reason, our communities as a whole often times can get heavily opinionated over certain subjects. Sometimes, this can turn into huge internet flame wars, espcially it seems when there is relatively less quantifiable info to argue about, like tabs vs spaces or brackets on same line vs next. Sometimes though, it can lead to strong thoughtful debates where both sides have to do research, and you end up learning about both sides in the process.
