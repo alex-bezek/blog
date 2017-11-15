@@ -1,8 +1,10 @@
-.LayoutIndex-JumbotronContainer {
-  height: 300px;
-}
+@import '../components/utils/breakpoints';
 
-.LayoutIndex-page-content {
+.LayoutIndex-main-content {
   margin: auto;
   width: 70%;
+
+  @media screen and (max-width: $site-medium-breakpoint - 1) {
+    width: 90%;
+  }
 }

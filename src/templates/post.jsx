@@ -2,6 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import HeaderContainer from '../components/atoms/header/HeaderContainer';
+import PostHeader from '../components/atoms/header/PostHeader';
 import "./b16-tomorrow-dark.css";
 
 export default class PostTemplate extends React.Component {
@@ -22,9 +24,9 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
-          <h1>
-            {post.title}
-          </h1>
+          <HeaderContainer>
+            <PostHeader postTitle={post.title} />
+          </HeaderContainer>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div >
             <h5>tags</h5>

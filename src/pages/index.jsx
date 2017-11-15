@@ -3,6 +3,9 @@ import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import HeaderContainer from '../components/atoms/header/HeaderContainer';
+import NameHeader from '../components/atoms/header/NameHeader';
+
 import './Index.scss';
 
 class Index extends React.Component {
@@ -12,6 +15,9 @@ class Index extends React.Component {
       <div>
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
+        <HeaderContainer>
+          <NameHeader />
+        </HeaderContainer>
         <PostListing postEdges={postEdges} />
       </div>
     );

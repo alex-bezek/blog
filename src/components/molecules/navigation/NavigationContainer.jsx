@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from './Navigation';
+import Jumbotron from '../../atoms/jumbotron/Jumbotron';
 import config from "../../../../data/SiteConfig";
+import './NavigationContainer.scss';
 
 const NavigationContainer = () => {
   const data = {
@@ -17,11 +19,12 @@ const NavigationContainer = () => {
   };
 
   return (
-    <div>
+    <div className="NavigationContainer">
       <Navigation
         links={data.links}
         userName={config.userName}
       />
+      <Jumbotron />
     </div>
   )
 }
