@@ -2,7 +2,7 @@
 title: "Trying Something New"
 image: "./thumbnail.jpg"
 date: "09/09/2017"
-category: "tech"
+category: "Soft"
 tags:
   - drawing
   - design

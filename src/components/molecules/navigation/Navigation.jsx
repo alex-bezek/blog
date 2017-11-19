@@ -12,7 +12,7 @@ const Navigation = ({ links, userName }) => (
       </li>
       {
         links && Array.isArray(links) && links.map(link => (
-          <li>
+          <li key={link.uri}>
             <Link to={link.uri}>
               {link.text}
             </Link>

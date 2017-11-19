@@ -2,7 +2,7 @@
 title: "Problems using css variables defining a root in a UI library"
 image: "./CSS-VARIABLES.png"
 date: "09/09/2017"
-category: "devops"
+category: "Devops"
 tags:
   - aws
   - lambda

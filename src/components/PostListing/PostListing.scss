@@ -1,4 +1,28 @@
-.PostLink-columns {
-  column-width: 350px;
-  column-gap: inherit;
+@import '../utils/_breakpoints.scss';
+
+.PostListing-grid {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+
+  @media only screen and (min-width: $site-tiny-breakpoint) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (min-width: $site-medium-breakpoint) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.PostListing-title {
+  color: #3C4348;
+  padding-top: 35px;
+  font-size: 40px;
+  line-height: 49px;
 }

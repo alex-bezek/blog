@@ -2,7 +2,7 @@
 title: "Testing your markdown in gatsby"
 image: "./maxresdefault.jpg"
 date: "10/08/2017"
-category: "Gatsby"
+category: "Frontend"
 tags:
   - GraphQl
   - Gatsby

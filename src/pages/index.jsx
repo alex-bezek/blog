@@ -44,6 +44,7 @@ export const pageQuery = graphql`
             title
             tags
             date
+            category
             image {
               childImageSharp {
                 original {

@@ -1,4 +1,5 @@
 import React from "react";
+import CategoryList from '../molecules/category-list/CategoryList';
 import PostLink from  '../molecules/post-link/PostLink';
 import './PostListing.scss';
 
@@ -23,16 +24,28 @@ class PostListing extends React.Component {
     const postList = this.getPostList();
     return (
       <div>
-        <div className="PostLink-categories" />
-        <div className='PostLink-columns'>
+        <h2 className="PostListing-title">Technical Posts</h2>
+        <div className="PostListing-categories">
+          <CategoryList
+            categories={
+              postList.map(post => post.category)
+              // gets a unique list of categories
+              .filter((v, i, a) => a.indexOf(v) === i)
+            }
+          />
+        </div>
+        <div className='PostListing-grid'>
           {
             postList.map(post =>
               (
                 <PostLink
+                  key={post.path}
                   title={post.title}
                   image={post.image}
+                  date={post.date}
                   category={post.category}
                   path={post.path}
+                  tags={post.tags}
                 />
               )
             )

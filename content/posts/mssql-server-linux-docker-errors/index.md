@@ -2,7 +2,7 @@
 title: "Microsoft SQL Server Linux Docker Errors"
 image: "./SQL-Loves-Linux_2_Twitter-002.png"
 date: "10/10/2017"
-category: "docker"
+category: "Devops"
 tags:
   - .Net
   - Microsoft
@@ -48,4 +48,4 @@ docker logs cd26b6cac46a
 sqlservr: This program requires a machine with at least 3250 megabytes of memory.
 ```
 
-So there you have it. A quite long winded article involving all my team's baggage, but hopefully pinpointing some issues not specific to us. If you get anything from this, let it not be how to troubleshoot a .Net SQLSever docker container, but rather how to troubleshoot your failing containers as a whole. 
+So there you have it. A quite long winded article involving all my team's baggage, but hopefully pinpointing some issues not specific to us. If you get anything from this, let it not be how to troubleshoot a .Net SQLSever docker container, but rather how to troubleshoot your failing containers as a whole.

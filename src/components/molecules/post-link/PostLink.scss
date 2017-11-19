@@ -2,14 +2,50 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  display: inline-block;
   padding: 5px;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  text-decoration: none;
+  // height: 250px;
 
   .PostLink-image {
     border-radius: 3px;
-    display: block;
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .PostLink-description {
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    width: 100%;
+  }
+
+  .PostLink-title {
+    color: #3C4348;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: auto;
+  }
+
+  .PostLink-tags {
+    color: #77838C;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .PostLink-seperator {
+    color: #EEEEEE;
+    border-style: solid;
+  }
+
+  .PostLink-info {
+    color: #77838C;
+    font-size: 12px;
+    margin: 0;
   }
 }
