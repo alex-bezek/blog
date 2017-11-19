@@ -35,12 +35,15 @@ const PostLink = ({
             {tags.map(tag => (`#${tag}, `))}
           </div>
           <hr className="PostLink-seperator" />
-          <span>{new Date(date).toDateString()}</span>
-          <CategoryPill
-            category={category}
-            size={'small'}
-          />
-          <span>5 min</span>
+          <div className="PostLink-meta">
+            {/* Hack off the first 4 letters to drop the day of the week */}
+            <span>{new Date(date).toDateString().slice(4)}</span>
+            <CategoryPill
+              category={category}
+              size={'small'}
+            />
+            <span className="PostLink-timeToRead">5 min</span>
+          </div>
         </div>
       </article>
     </Link>

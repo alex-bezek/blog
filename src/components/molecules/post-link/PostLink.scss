@@ -8,7 +8,7 @@
   flex-direction: column;
   min-height: 100%;
   text-decoration: none;
-  // height: 250px;
+  height: 280px;
 
   .PostLink-image {
     border-radius: 3px;
@@ -47,5 +47,11 @@
     color: #77838C;
     font-size: 12px;
     margin: 0;
+  }
+
+  .PostLink-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
