@@ -38,7 +38,7 @@ export default class HTML extends React.Component {
           <link rel="shortcut icon" href={favicon} />
           {css}
         </head>
-        <body style={{margin: 0}}>
+        <body style={{ margin: 0, backgroundColor: "#E0E0E0"}}>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
