@@ -3,8 +3,8 @@ module.exports = {
   siteTitle: "Alex Bezek's Blog", // Site title.
   siteTitleAlt: "Alex Bezek's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https:///alex-bezek.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteUrl: "https://alexbezek.io", // Domain of your website without pathPrefix.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "A software blog by Alex Bezek", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
