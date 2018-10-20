@@ -134,14 +134,3 @@ export const SiteHeaderStyles = css`
     padding-left: 0;
   }
 `;
-
-export const AuthorProfileImage = css`
-  display: block;
-  /* background: color(var(--lightgrey) l(+10%)); */
-  background: ${lighten('0.1', colors.lightgrey)};
-  border-radius: 100%;
-  object-fit: cover;
-  margin-right: 15px;
-  width: 60px;
-  height: 60px;
-`;

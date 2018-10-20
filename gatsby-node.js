@@ -67,31 +67,11 @@ exports.createPages = async ({ graphql, actions }) => {
                   }
                 }
               }
-              author {
-                id
-                bio
-                avatar {
-                  children {
-                    ... on ImageSharp {
-                      fixed(quality: 100) {
-                        src
-                      }
-                    }
-                  }
-                }
-              }
             }
             fields {
               layout
               slug
             }
-          }
-        }
-      }
-      allAuthorYaml {
-        edges {
-          node {
-            id
           }
         }
       }
@@ -147,18 +127,6 @@ exports.createPages = async ({ graphql, actions }) => {
       component: tagTemplate,
       context: {
         tag,
-      },
-    });
-  });
-
-  // Create author pages
-  const authorTemplate = path.resolve('./src/templates/author.tsx');
-  result.data.allAuthorYaml.edges.forEach(edge => {
-    createPage({
-      path: `/author/${_.kebabCase(edge.node.id)}/`,
-      component: authorTemplate,
-      context: {
-        author: edge.node.id,
       },
     });
   });

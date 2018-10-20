@@ -114,19 +114,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            author {
-              id
-              bio
-              avatar {
-                children {
-                  ... on ImageSharp {
-                    fixed(quality: 100) {
-                      src
-                    }
-                  }
-                }
-              }
-            }
           }
           excerpt
           fields {

@@ -6,13 +6,10 @@ import * as React from 'react';
 import styled, { css } from 'react-emotion';
 import { Helmet } from 'react-helmet';
 
-import AuthorCard from '../components/AuthorCard';
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import PostCard from '../components/PostCard';
 import PostContent from '../components/PostContent';
-import PostFullFooter from '../components/PostFullFooter';
-import PostFullFooterRight from '../components/PostFullFooterRight';
 import ReadNextCard from '../components/ReadNextCard';
 import Subscribe from '../components/subsribe/Subscribe';
 import Wrapper from '../components/Wrapper';
@@ -141,17 +138,6 @@ interface PageTemplateProps {
           };
         };
         tags: string[];
-        author: {
-          id: string;
-          bio: string;
-          avatar: {
-            children: {
-              fixed: {
-                src: string;
-              };
-            }[];
-          };
-        };
       };
     };
     relatedPosts: {
@@ -190,17 +176,6 @@ export interface PageContext {
     title: string;
     date: string;
     tags: string[];
-    author: {
-      id: string;
-      bio: string;
-      avatar: {
-        children: {
-          fixed: {
-            src: string;
-          };
-        }[];
-      };
-    };
   };
 }
 
@@ -243,7 +218,7 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
           <meta name="twitter:image" content={post.frontmatter.image.childImageSharp.fluid.src} />
         )}
         <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content={post.frontmatter.author.id} />
+        {/* <meta name="twitter:data1" content={post.frontmatter.author.id} /> */}
         <meta name="twitter:label2" content="Filed under" />
         {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
         <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
@@ -294,11 +269,6 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
 
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
-
-              <PostFullFooter>
-                <AuthorCard author={post.frontmatter.author} />
-                <PostFullFooterRight authorId={post.frontmatter.author.id} />
-              </PostFullFooter>
             </article>
           </div>
         </main>
@@ -347,19 +317,6 @@ export const query = graphql`
           childImageSharp {
             fluid(maxWidth: 3720) {
               ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        author {
-          id
-          bio
-          avatar {
-            children {
-              ... on ImageSharp {
-                fixed(quality: 100) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
             }
           }
         }

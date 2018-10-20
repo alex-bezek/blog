@@ -127,8 +127,8 @@ const IndexPage: React.SFC<IndexProps> = props => {
                     alt={config.title}
                   />
                 ) : (
-                  config.title
-                )}
+                    config.title
+                  )}
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
@@ -186,19 +186,6 @@ export const pageQuery = graphql`
               childImageSharp {
                 fluid(maxWidth: 3720) {
                   ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            author {
-              id
-              bio
-              avatar {
-                children {
-                  ... on ImageSharp {
-                    fixed(quality: 100) {
-                      src
-                    }
-                  }
                 }
               }
             }

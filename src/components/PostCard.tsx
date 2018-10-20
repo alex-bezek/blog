@@ -87,99 +87,6 @@ const PostCardMeta = styled.footer`
   padding: 0 25px 25px;
 `;
 
-const AuthorList = styled.ul`
-  display: flex;
-  flex-wrap: wrap-reverse;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-`;
-
-const AuthorListItem = styled.li`
-  position: relative;
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-
-  :nth-child(1) {
-    z-index: 10;
-  }
-  :nth-child(2) {
-    z-index: 9;
-  }
-  :nth-child(3) {
-    z-index: 8;
-  }
-  :nth-child(4) {
-    z-index: 7;
-  }
-  :nth-child(5) {
-    z-index: 6;
-  }
-  :nth-child(6) {
-    z-index: 5;
-  }
-  :nth-child(7) {
-    z-index: 4;
-  }
-  :nth-child(8) {
-    z-index: 3;
-  }
-  :nth-child(9) {
-    z-index: 2;
-  }
-  :nth-child(10) {
-    z-index: 1;
-  }
-  :hover .author-name-tooltip {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-`;
-
-const AuthorNameTooltip = styled.div`
-  position: absolute;
-  bottom: 105%;
-  z-index: 999;
-  display: block;
-  padding: 2px 8px;
-  color: white;
-  font-size: 1.2rem;
-  letter-spacing: 0.2px;
-  white-space: nowrap;
-  background: ${colors.darkgrey};
-  border-radius: 3px;
-  box-shadow: rgba(39, 44, 49, 0.08) 0 12px 26px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
-  opacity: 0;
-  transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-  transform: translateY(6px);
-  pointer-events: none;
-
-  @media (max-width: 650px) {
-    display: none;
-  }
-`;
-
-const StaticAvatar = css`
-  display: block;
-  overflow: hidden;
-  margin: 0 -5px;
-  width: 34px;
-  height: 34px;
-  border: #fff 2px solid;
-  border-radius: 100%;
-`;
-
-const AuthorProfileImage = styled.img`
-  display: block;
-  width: 100%;
-  height: 100%;
-  /* background: color(var(--lightgrey) l(+10%)); */
-  background: ${lighten('0.1', colors.lightgrey)}
-  border-radius: 100%;
-  object-fit: cover;
-`;
-
 const ReadingTime = styled.span`
   flex-shrink: 0;
   margin-left: 20px;
@@ -223,23 +130,6 @@ const PostCard: React.SFC<PostCardProps> = ({ post }) => {
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
-          <AuthorList>
-            <AuthorListItem>
-              <AuthorNameTooltip className="author-name-tooltip">
-                {post.frontmatter.author.id}
-              </AuthorNameTooltip>
-              <Link
-                className={`${StaticAvatar}`}
-                to={`/author/${_.kebabCase(post.frontmatter.author.id)}/`}
-              >
-                <img
-                  className={`${AuthorProfileImage}`}
-                  src={post.frontmatter.author.avatar.children[0].fixed.src}
-                  alt={post.frontmatter.author.id}
-                />
-              </Link>
-            </AuthorListItem>
-          </AuthorList>
           <ReadingTime>{post.timeToRead} min read</ReadingTime>
         </PostCardMeta>
       </PostCardContent>

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "Alex Bezek Blog",
+  "description": "Alex Bezek Blog",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Alex Bezek",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

@@ -92,12 +92,12 @@ const Tags: React.SFC<TagTemplateProps> = props => {
                 {tagData && tagData.node.description ? (
                   tagData.node.description
                 ) : (
-                  <>
-                    A collection of {totalCount > 1 && `${totalCount} posts`}
-                    {totalCount === 1 && `1 post`}
-                    {totalCount === 0 && `No posts`}
-                  </>
-                )}
+                    <>
+                      A collection of {totalCount > 1 && `${totalCount} posts`}
+                      {totalCount === 1 && `1 post`}
+                      {totalCount === 0 && `No posts`}
+                    </>
+                  )}
               </SiteDescription>
             </SiteHeaderContent>
           </div>
@@ -154,19 +154,6 @@ export const pageQuery = graphql`
               childImageSharp {
                 fluid(maxWidth: 1240) {
                   ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            author {
-              id
-              bio
-              avatar {
-                children {
-                  ... on ImageSharp {
-                    fixed(quality: 100) {
-                      src
-                    }
-                  }
                 }
               }
             }

@@ -1,32 +1,14 @@
-# gatsby-casper
+# My Blog
 
-Demo: https://gatsby-casper.netlify.com/  
+# Features
 
-This is a static blog generator and starter gatsby repo. A port of [Casper](https://github.com/TryGhost/Casper) v2 a theme from [Ghost](https://ghost.org/) for [GatsbyJS](https://www.gatsbyjs.org/) using [TypeScript](https://www.typescriptlang.org/).
+# TODO
+* Go through the tslint and tsconfig, update and learn it (or just remove typescript)
+* switch from npm to yarn
+* remove prettier in favor of just using eslint
+* Replace facebook links with github links
+* Add mail chimp config for free tier
+* break up the content folder so its more clear what are posts vs random images vs random pages
+* fix meta data through ought different pages
+* fix invalid dates
 
-## Getting Started
-Edit website-config.ts with your website settings.
-Either disable subscribe or setup a mailchimp list and add the form action and hidden field input name.
-
-
-### Progress
-- [x] emotion / component styles
-- [x] home page
-- [x] tag page
-- [x] author page
-- [x] blog page
-  - [x] subscribe form - using [mailchimp](https://mailchimp.com)
-  - [ ] full width images in markdown? - not sure if possible
-  - [ ] multiple post authors
-  - [ ] floating reading progress bar
-- [x] 404 page
-- [x] subscribe modal/overlay
-- [x] rss feed
-- [x] polish ✨
-  - [x] meta tags
-  - [x] page titles
-
-
-### Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scttcper/gatsby-casper)

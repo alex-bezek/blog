@@ -6,9 +6,6 @@ module.exports = {
     description: "Alex Bezek's Blog",
     siteUrl: 'https://alexbezek.io',
   },
-  mapping: {
-    'MarkdownRemark.frontmatter.author': 'AuthorYaml',
-  },
   plugins: [
     'gatsby-plugin-sharp',
     {
