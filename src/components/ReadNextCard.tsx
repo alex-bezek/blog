@@ -11,6 +11,7 @@ export interface ReadNextCardStylesProps {
   coverImage: string;
 }
 
+
 const ReadNextCardStyles = styled.article<ReadNextCardStylesProps>(
   props => `
   position: relative;
