@@ -7,7 +7,7 @@ import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
 import Github from '../icons/github';
 import Twitter from '../icons/twitter';
-import LinkedIn from '../icons/LinkedIn';
+import LinkedIn from '../icons/linkedIn';
 import SubscribeModal from '../subsribe/SubscribeOverlay';
 import SiteNavLogo from './SiteNavLogo';
 
