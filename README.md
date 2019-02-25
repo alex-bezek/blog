@@ -17,6 +17,7 @@
 * webpack bundle analyzer https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-bundle-analyzer/?=
 * paginate posts https://www.gatsbyjs.org/packages/gatsby-paginate/?=
 * replace images with higher quality ones that aren't blurry
+* Make related posts not use the same post as the page its on.
 
 # How to run locally
 

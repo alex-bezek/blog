@@ -5,11 +5,9 @@ date: 2017-10-08T00:00:00.000Z
 category: "Frontend"
 draft: false
 tags:
+  - frontend
   - GraphQl
   - Gatsby
-credit_links:
-  - https://www.gatsbyjs.org/
-  - https://css-tricks.com/the-blur-up-technique-for-loading-background-images/
 ---
 
 Being stuck on an issue in a technology or concept you are brand new to can be paralyzing. You hardly know enough to figure out how to google the issue. Even if you do have a good search, the answer could be sitting right in front of your face, and often times you don't even know it. If it’s not a critical blocking issue, you may try to push it off till later and progress with your work. For me though, its always a nagging issue in the back of my head. I will try to do other work, but the perfectionist in me keeps me coming back the problem day after day. Eventually with much persitence (and alot of luck) the solution dawns on you. Regardless of if it was a crazy strange issue, or a simple misunderstanding of the tech, you get an immdediate sense of accomplishment for solving the issue. I think its what drives us in our field. To solve problems and get that leveling up factor. Down the road, when you are much more familiar with the topic, its fun to retrospect on how silly it was you couldn't figure it out and how easy it would be to solve that issue now.

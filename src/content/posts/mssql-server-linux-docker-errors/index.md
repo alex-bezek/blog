@@ -2,12 +2,12 @@
 title: "Microsoft SQL Server Linux Docker Errors"
 image: "./SQL-Loves-Linux_2_Twitter-002.png"
 date: 2017-10-10T00:00:00.000Z
-category: "Devops"
 draft: false
 tags:
+  - devops
+  - docker
   - .Net
   - Microsoft
-  - docker
 ---
 
 Microsoft SQL Server in a linux based container...WHAAAAA? Thats rights. This may be old news for some, but Microsoft released a Docker image that allows you to run a MSSQL in a docker on your mac (or linux based) computer. Probably small news for most people, but for our team it was kind of awesome.
