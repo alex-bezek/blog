@@ -12,7 +12,7 @@
     "lint": "yarn run lint:scss && yarn run lint:js",
     "lint:js": "eslint --ext .js,.jsx,.tsx . --ignore-path .eslintignore",
     "lint:scss": "stylelint '**/*.scss'",
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

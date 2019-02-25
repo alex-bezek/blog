@@ -22,7 +22,7 @@ const ReadNextCardStyles = styled.article<ReadNextCardStylesProps>(
   margin: 0 20px 40px;
   padding: 25px;
   color: #fff;
-  background: ${colors.darkgrey} center center;
+  background: var(--darkgrey) center center;
   background-size: cover;
   border-radius: 5px;
   box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;

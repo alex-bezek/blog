@@ -7,8 +7,9 @@ export interface WebsiteConfig {
    * blog full path, no ending slash!
    */
   siteUrl: string;
-  facebook: string;
+  githubUrl: string;
   twitter: string;
+  linkedInUrl: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -29,8 +30,9 @@ const config: WebsiteConfig = {
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   siteUrl: 'https://alexbezek.io',
-  facebook: 'https://www.facebook.com/abezek1',
+  githubUrl: 'http://github.com/alex-bezek',
   twitter: 'https://twitter.com/alex_bezek',
+  linkedInUrl: 'https://www.linkedin.com/in/alexander-bezek-b1993b100',
   showSubscribe: true,
   mailchimpAction: 'TODO',
   mailchimpName: 'TODO',

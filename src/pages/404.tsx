@@ -6,7 +6,6 @@ import SiteNavLogo from '../components/header/SiteNavLogo';
 import PostCard from '../components/PostCard';
 import Wrapper from '../components/Wrapper';
 import IndexLayout from '../layouts';
-import { colors } from '../styles/colors';
 import { inner, outer, PostFeed, SiteHeader } from '../styles/shared';
 import { PageContext } from '../templates/post';
 
@@ -35,7 +34,7 @@ const ErrorCode = styled.h1`
 
 const ErrorDescription = styled.p`
   margin: 0;
-  color: ${colors.midgrey};
+  color: var(--midgrey);
   font-size: 3rem;
   line-height: 1.3em;
   font-weight: 400;

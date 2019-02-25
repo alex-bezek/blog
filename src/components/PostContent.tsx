@@ -1,4 +1,4 @@
-import { lighten, setLightness, darken, setSaturation } from 'polished';
+import { setLightness } from 'polished';
 import * as React from 'react';
 import styled from 'react-emotion';
 import rehypeReact from 'rehype-react';
@@ -78,18 +78,17 @@ export const PostFullContent = styled.section`
   a {
     color: #000;
     word-break: break-word;
-    box-shadow: ${colors.blue} 0 -1px 0 inset;
+    box-shadow: var(--blue) 0 -1px 0 inset;
   }
 
   a:hover {
-    color: ${colors.blue};
+    color: var(--blue);
     text-decoration: none;
   }
 
   strong,
   em {
-    /* color: color(var(--darkgrey) l(-5%)); */
-    color: ${darken('0.05', colors.darkgrey)};
+    color: color(var(--darkgrey) l(-5%));
   }
 
   small {
@@ -155,7 +154,7 @@ export const PostFullContent = styled.section`
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400 !important;
-    background: ${colors.whitegrey};
+    background: var(--whitegrey);
     border-radius: 3px;
   }
 
@@ -168,13 +167,11 @@ export const PostFullContent = styled.section`
     margin: 1.5em 0 3em;
     padding: 20px;
     max-width: 100%;
-    /* border: color(var(--darkgrey) l(-10%)) 1px solid; */
-    border: ${darken('0.01', colors.darkgrey)} 1px solid;
-    color: ${colors.whitegrey};
+    border: color(var(--darkgrey) l(-10%)) 1px solid;
+    color: var(--whitegrey);
     font-size: 1.4rem;
     line-height: 1.5em;
-    /* background: color(var(--darkgrey) l(-3%)); */
-    background: ${darken('0.03', colors.darkgrey)};
+    background: color(var(--darkgrey) l(-3%));
     border-radius: 5px;
   }
 
@@ -207,8 +204,7 @@ export const PostFullContent = styled.section`
     margin-left: -10px;
     width: 1px;
     height: 30px;
-    /* background: color(var(--lightgrey) l(+10%)); */
-    background: ${lighten('0.1', colors.lightgrey)};
+    background: color(var(--lightgrey) l(+10%));
     box-shadow: #fff 0 0 0 5px;
     transform: rotate(45deg);
   }
@@ -273,7 +269,7 @@ export const PostFullContent = styled.section`
     margin: 0.5em 0;
     padding: 1em 0 1.5em;
     border: 0;
-    color: ${colors.blue};
+    color: var(--blue);
     font-family: Georgia, serif;
     font-size: 3.2rem;
     line-height: 1.35em;
@@ -350,21 +346,19 @@ export const PostFullContent = styled.section`
   }
 
   table th {
-    color: ${colors.darkgrey};
+    color: var(--darkgrey);
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
-    /* background-color: color(var(--whitegrey) l(+4%)); */
-    background-color: ${lighten('0.04', colors.whitegrey)};
+    background-color: color(var(--whitegrey) l(+4%));
   }
 
   table th,
   table td {
     padding: 6px 12px;
-    /* border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid; */
-    border: ${setSaturation('0.05', darken('0.01', colors.whitegrey))} 1px solid;
+    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
   }
 
   @media (max-width: 500px) {

@@ -1,11 +1,9 @@
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import * as _ from 'lodash';
-import { lighten } from 'polished';
 import * as React from 'react';
 
 import styled, { css } from 'react-emotion';
-import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
 
 const PostCardStyles = css`
@@ -38,7 +36,7 @@ const PostCardImageLink = css`
 const PostCardImage = styled.div`
   width: auto;
   height: 200px;
-  background: ${colors.lightgrey} no-repeat center center;
+  background: var(--lightgrey) no-repeat center center;
   background-size: cover;
 `;
 
@@ -54,7 +52,7 @@ const PostCardContentLink = css`
   flex-grow: 1;
   display: block;
   padding: 25px 25px 0;
-  color: ${colors.darkgrey};
+  color: var(--darkgrey);
 
   :hover {
     text-decoration: none;
@@ -64,7 +62,7 @@ const PostCardContentLink = css`
 const PostCardTags = styled.span`
   display: block;
   margin-bottom: 4px;
-  color: ${colors.midgrey};
+  color: var(--midgrey);
   font-size: 1.2rem;
   line-height: 1.15em;
   font-weight: 500;
@@ -90,7 +88,7 @@ const PostCardMeta = styled.footer`
 const ReadingTime = styled.span`
   flex-shrink: 0;
   margin-left: 20px;
-  color: ${colors.midgrey};
+  color: var(--midgrey);
   font-size: 1.2rem;
   line-height: 33px;
   font-weight: 500;

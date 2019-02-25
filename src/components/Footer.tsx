@@ -69,13 +69,13 @@ const Footer: React.SFC = () => {
     <footer className={`${outer} ${SiteFooter}`}>
       <div className={`${inner} ${SiteFooterContent}`}>
         <section className="copyright">
-          <Link to="/">{config.title}</Link> &copy; 2018
+          <Link to="/">{config.title}</Link> &copy; 2019
         </section>
         <SiteFooterNav>
           <Link to="/">Latest Posts</Link>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
-              Facebook
+          {config.githubUrl && (
+            <a href={config.githubUrl} target="_blank" rel="noopener noreferrer">
+              Github
             </a>
           )}
           {config.twitter && (
@@ -83,11 +83,11 @@ const Footer: React.SFC = () => {
               Twitter
             </a>
           )}
-
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
-
+          {config.linkedInUrl && (
+            <a href={config.linkedInUrl} target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          )}
           <Link to="/rss.xml">RSS</Link>
         </SiteFooterNav>
       </div>

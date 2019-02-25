@@ -39,7 +39,7 @@ const SubscribeOverlay = styled.div`
     padding: 14px 20px;
     width: 100%;
     border: none;
-    color: ${colors.midgrey};
+    color: var(--midgrey);
     font-size: 2rem;
     line-height: 1em;
     font-weight: normal;

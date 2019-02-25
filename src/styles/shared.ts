@@ -1,7 +1,5 @@
 import { css } from 'emotion';
 import styled from 'react-emotion';
-import { colors } from './colors';
-import { darken, lighten } from 'polished';
 
 export const outer = css`
   position: relative;
@@ -77,8 +75,7 @@ export const SiteHeader = css`
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background: color(var(--darkgrey) l(-5%)) no-repeat center center;
   background-size: cover;
 `;
 

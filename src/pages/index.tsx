@@ -14,7 +14,6 @@ import {
   outer,
   PostFeed,
   PostFeedRaise,
-  SiteDescription,
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
@@ -66,11 +65,6 @@ const HomePosts = css`
 
 export interface IndexProps {
   data: {
-    logo: {
-      childImageSharp: {
-        fixed: any;
-      };
-    };
     header: {
       childImageSharp: {
         fluid: any;
@@ -97,7 +91,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
         <meta property="og:image" content={props.data.header.childImageSharp.fluid.src} />
-        <meta property="article:publisher" content={config.facebook} />
+        <meta property="article:publisher" content={config.githubUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
         <meta name="twitter:description" content={config.description} />
@@ -120,17 +114,8 @@ const IndexPage: React.SFC<IndexProps> = props => {
           <div className={`${inner}`}>
             <SiteHeaderContent>
               <SiteTitle>
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '45px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
-                    alt={config.title}
-                  />
-                ) : (
-                    config.title
-                  )}
+                {config.title}
               </SiteTitle>
-              <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
             <SiteNav isHome={true} />
           </div>
@@ -156,15 +141,6 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.

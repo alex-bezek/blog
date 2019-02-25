@@ -1,24 +1,20 @@
-import { lighten } from 'polished';
 import * as React from 'react';
 import { css, default as styled } from 'react-emotion';
 
-import { colors } from '../../styles/colors';
 import SubscribeForm from './SubscribeForm';
 
 
 const SubscribeFormSection = styled.section`
   margin: 1.5em 0;
   padding: 6.5vw 7vw 7vw;
-  /* border: color(var(--whitegrey) l(+2%)) 1px solid; */
-  border: ${lighten('0.02', colors.whitegrey)} 1px solid;
+  border: color(var(--whitegrey) l(+2%)) 1px solid;
   text-align: center;
-  /* background: color(var(--whitegrey) l(+4%)); */
-  background: ${lighten('0.04', colors.whitegrey)};
+  background: color(var(--whitegrey) l(+4%));
   border-radius: 7px;
 
   p {
     margin-bottom: 1em;
-    color: ${colors.midgrey};
+    color: var(--midgrey);
     font-size: 2.2rem;
     line-height: 1.55em;
     letter-spacing: 0.2px;
@@ -45,7 +41,7 @@ const SubscribeFormSection = styled.section`
 const SubscribeFormTitle = css`
   margin: 0 0 3px 0;
   padding: 0;
-  color: ${colors.darkgrey};
+  color: var(--darkgrey);
   font-size: 3.5rem;
   line-height: 1;
   font-weight: 700;

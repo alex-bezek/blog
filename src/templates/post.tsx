@@ -56,7 +56,7 @@ const PostFullMeta = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${colors.midgrey};
+  color: var(--midgrey);
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ const PostFullMeta = styled.section`
 `;
 
 const PostFullMetaDate = styled.time`
-  color: ${colors.blue};
+  color: var(--blue);
 `;
 
 export const PostFullTitle = styled.h1`
@@ -82,7 +82,7 @@ export const PostFullTitle = styled.h1`
 const PostFullImage = styled.figure`
   margin: 0 -10vw -165px;
   height: 800px;
-  background: ${colors.lightgrey} center center;
+  background: var(--lightgrey) center center;
   background-size: cover;
   border-radius: 5px;
 
@@ -208,8 +208,8 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
           <meta property="article:tag" content={post.frontmatter.tags[0]} />
         )}
 
-        <meta property="article:publisher" content={config.facebook} />
-        <meta property="article:author" content={config.facebook} />
+        <meta property="article:publisher" content={config.githubUrl} />
+        <meta property="article:author" content={config.githubUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
         <meta name="twitter:description" content={post.excerpt} />
