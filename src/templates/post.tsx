@@ -1,6 +1,7 @@
 import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import { setLightness } from 'polished';
+import * as _ from 'lodash'
 import * as React from 'react';
 import styled, { css } from 'react-emotion';
 import { Helmet } from 'react-helmet';
