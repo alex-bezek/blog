@@ -50,7 +50,6 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
     'gatsby-transformer-yaml',
     'gatsby-plugin-feed',
     {
