@@ -34,8 +34,8 @@ const config: WebsiteConfig = {
   twitter: 'https://twitter.com/alex_bezek',
   linkedInUrl: 'https://www.linkedin.com/in/alexander-bezek-b1993b100',
   showSubscribe: true,
-  mailchimpAction: 'TODO',
-  mailchimpName: 'TODO',
+  mailchimpAction: 'https://alexbezek.us20.list-manage.com/subscribe/post?u=7564e4a4c6c623a8c709acec8&amp;id=2d7a6cf84a',
+  mailchimpName: 'b_7564e4a4c6c623a8c709acec8_2d7a6cf84a',
 };
 
 export default config;
