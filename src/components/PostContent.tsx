@@ -1,4 +1,4 @@
-import { setLightness } from 'polished';
+import { lighten, setLightness, darken, setSaturation } from 'polished';
 import * as React from 'react';
 import styled from 'react-emotion';
 import rehypeReact from 'rehype-react';
@@ -88,7 +88,8 @@ export const PostFullContent = styled.section`
 
   strong,
   em {
-    color: color(var(--darkgrey) l(-5%));
+    /* color: color(var(--darkgrey) l(-5%)); */
+    color: ${darken('0.05', colors.darkgrey)};
   }
 
   small {
@@ -167,11 +168,13 @@ export const PostFullContent = styled.section`
     margin: 1.5em 0 3em;
     padding: 20px;
     max-width: 100%;
-    border: color(var(--darkgrey) l(-10%)) 1px solid;
+    /* border: color(var(--darkgrey) l(-10%)) 1px solid; */
+    border: ${darken('0.01', colors.darkgrey)} 1px solid;
     color: var(--whitegrey);
     font-size: 1.4rem;
     line-height: 1.5em;
-    background: color(var(--darkgrey) l(-3%));
+    /* background: color(var(--darkgrey) l(-3%)); */
+    background: ${darken('0.03', colors.darkgrey)};
     border-radius: 5px;
   }
 
@@ -204,7 +207,8 @@ export const PostFullContent = styled.section`
     margin-left: -10px;
     width: 1px;
     height: 30px;
-    background: color(var(--lightgrey) l(+10%));
+    /* background: color(var(--lightgrey) l(+10%)); */
+    background: ${lighten('0.1', colors.lightgrey)};
     box-shadow: #fff 0 0 0 5px;
     transform: rotate(45deg);
   }
@@ -352,13 +356,15 @@ export const PostFullContent = styled.section`
     letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
-    background-color: color(var(--whitegrey) l(+4%));
+    /* background-color: color(var(--whitegrey) l(+4%)); */
+    background-color: ${lighten('0.04', colors.whitegrey)};
   }
 
   table th,
   table td {
     padding: 6px 12px;
-    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+    /* border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid; */
+    border: ${setSaturation('0.05', darken('0.01', colors.whitegrey))} 1px solid;
   }
 
   @media (max-width: 500px) {

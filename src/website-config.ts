@@ -30,7 +30,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   siteUrl: 'https://alexbezek.io',
-  githubUrl: 'http://github.com/alex-bezek',
+  githubUrl: 'https://github.com/alex-bezek',
   twitter: 'https://twitter.com/alex_bezek',
   linkedInUrl: 'https://www.linkedin.com/in/alexander-bezek-b1993b100',
   showSubscribe: true,

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { css, default as styled } from 'react-emotion';
+import { darken, desaturate, lighten, mix } from 'polished';
 
 import { colors } from '../../styles/colors';
 import config from '../../website-config';
@@ -16,7 +17,8 @@ const SubscribeEmail = styled.input`
   display: block;
   padding: 10px;
   width: 100%;
-  border: color(var(--lightgrey) l(+7%)) 1px solid;
+  /* border: color(var(--lightgrey) l(+7%)) 1px solid; */
+  border: ${lighten('0.07', colors.lightgrey)};
   color: var(--midgrey);
   font-size: 1.8rem;
   line-height: 1em;
@@ -28,7 +30,8 @@ const SubscribeEmail = styled.input`
   -webkit-appearance: none;
   :focus {
     outline: 0;
-    border-color: color(var(--lightgrey) l(-2%));
+    /* border-color: color(var(--lightgrey) l(-2%)); */
+    border-color: ${darken('0.02', colors.lightgrey)};
   }
 `;
 
@@ -44,11 +47,17 @@ const SubscribeFormButton = styled.button`
   font-weight: 400;
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
-  background: linear-gradient(
+  /* background: linear-gradient(
     color(var(--blue) whiteness(+7%)),
     color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
     color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
     color(var(--blue) lightness(-4%) saturation(-10%))
+  ); */
+  background: linear-gradient(
+    ${mix('0.1', '#fff', colors.blue)},
+    ${desaturate('0.1', darken('0.07', colors.blue))} 60%,
+    ${desaturate('0.1', darken('0.07', colors.blue))} 90%,
+    ${desaturate('0.1', darken('0.04', colors.blue))}
   );
   border-radius: 5px;
   box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);
@@ -57,7 +66,8 @@ const SubscribeFormButton = styled.button`
 
   :active,
   :focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    /* background: color(var(--blue) lightness(-9%) saturation(-10%)); */
+    background: ${desaturate('0.1', darken('0.09', colors.blue))};
   }
   @media (max-width: 500px) {
     margin: 10px 0 0;

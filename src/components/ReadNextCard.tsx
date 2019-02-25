@@ -3,7 +3,6 @@ import * as React from 'react';
 import styled from 'react-emotion';
 import * as _ from 'lodash';
 
-import { colors } from '../styles/colors';
 import InfinityIcon from './icons/infinity';
 import config from '../website-config';
 

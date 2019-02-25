@@ -1,8 +1,6 @@
 # Features
 
 # TODO
-* Go through the tslint and tsconfig, update and learn it (or just remove typescript)
-* Replace facebook links with github links
 * Add mail chimp config for free tier
 * break up the content folder so its more clear what are posts vs random images vs random pages
 * fix meta data through-ought different pages
@@ -20,8 +18,6 @@
 * rss feed https://www.gatsbyjs.org/packages/gatsby-plugin-feed/?=
 * webpack bundle analyzer https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-bundle-analyzer/?=
 * paginate posts https://www.gatsbyjs.org/packages/gatsby-paginate/?=
-* Remove ghost + logo and replace with something else
-* Make a real about page
 * replace images with higher quality ones that aren't blurry
 
 # How to run locally
