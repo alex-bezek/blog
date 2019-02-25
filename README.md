@@ -1,7 +1,6 @@
 # Features
 
 # TODO
-* Add mail chimp config for free tier
 * break up the content folder so its more clear what are posts vs random images vs random pages
 * fix meta data through-ought different pages
 * fix invalid dates
@@ -11,7 +10,6 @@
   * https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=
   * https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=
 * clean up categories vs tags and make a tags overview page or something
-* Google analytics https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/?=&no-cache=1
 * Improve netlify delivery
   * https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/?=
 * Make prism js better https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/?=
