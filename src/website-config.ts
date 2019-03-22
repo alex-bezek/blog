@@ -25,8 +25,8 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: "Alex Bezek's Blog",
-  description: "Alex Bezek's Blog",
+  title: "Franks's Example of Netlify Blog",
+  description: "Franks's Example of Netlify Blog",
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   siteUrl: 'https://alexbezek.io',
