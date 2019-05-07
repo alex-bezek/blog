@@ -17,9 +17,3 @@
 # How to run locally
 
 `yarn dev`
-
-# Upcoming talk Ideas
-
-* Rails streaming
-* Traefik weirdness and gotchas
-
