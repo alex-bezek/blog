@@ -13,6 +13,7 @@
 * rss feed https://www.gatsbyjs.org/packages/gatsby-plugin-feed/?=
 * Make related posts not use the same post as the page its on.
 * Add pictures for tags to tag.yaml
+* Add frontmatter for abstract/intro of each article
 
 # How to run locally
 
