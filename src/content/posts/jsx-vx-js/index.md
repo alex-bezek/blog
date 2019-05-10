@@ -2,7 +2,7 @@
 title: "Jsx vs Js"
 image: "react-jsx.png"
 date: 2017-10-17T00:00:00.000Z
-draft: false
+permalink: jsx-vx-js
 tags:
   - frontend
   - react

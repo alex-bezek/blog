@@ -3,7 +3,7 @@ title: "Linking to local images in Gatsby frontmatter"
 image: "./gatsby-site-data.jpg"
 date: 2017-10-08T00:00:00.000Z
 category: "Frontend"
-draft: false
+permalink: linking-to-local-images-in-gatsby-frontmatter
 tags:
   - frontend
   - GraphQl

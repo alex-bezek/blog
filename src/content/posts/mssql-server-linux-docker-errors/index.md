@@ -2,7 +2,7 @@
 title: "Microsoft SQL Server Linux Docker Errors"
 image: "./SQL-Loves-Linux_2_Twitter-002.png"
 date: 2017-10-10T00:00:00.000Z
-draft: false
+permalink: mssql-server-linux-docker-errors
 tags:
   - devops
   - docker

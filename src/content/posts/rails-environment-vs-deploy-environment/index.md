@@ -3,6 +3,7 @@ title: "Rails Environment VS Deploy Environment"
 image: "./rails.png"
 image_src: https://railsware.com/blog/wp-content/uploads/2018/07/hostror-illustration.png
 date: 2019-05-09T00:00:00.000Z
+permalink: rails-environment-vs-deploy-environment
 tags:
   - Rails
 ---
