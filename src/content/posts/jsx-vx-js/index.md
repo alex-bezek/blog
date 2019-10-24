@@ -8,6 +8,8 @@ tags:
   - react
 ---
 
+COMMON STEPHN, YOU ARE MISSING OUT
+
 For some reason, our communities as a whole often times can get heavily opinionated over certain subjects. Sometimes, this can turn into huge internet flame wars, espcially it seems when there is relatively less quantifiable info to argue about, like tabs vs spaces or brackets on same line vs next. Sometimes though, it can lead to strong thoughtful debates where both sides have to do research, and you end up learning about both sides in the process.
 
 This week at work, a topic of this sort came up. We had generated a create-react-app and were in the process of getting everything setup. First, a team member got our initial project setup using the generator, made a couple example pages, etc. From there, a different engineer (from another team helping us out) started working on our first main component.
