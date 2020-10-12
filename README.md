@@ -17,6 +17,7 @@
 ```sh
 clone https://github.com/alex-bezek/blog --recurse-submodules
 cd blog
+hugo new posts/a_new_post.md
 hugo server -w
 ```
 
@@ -45,11 +46,12 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * Run through lighthouse performance and security suggestions
 * Research SEO and meta tags
 * Progressive web app
-* make script for `hugo new newsletter/the-latest-cool.stuff.md` that creates folders for statics and stuff
 * make a cool 404 page https://gohugo.io/templates/404/
-* hugo build optomizer (minification, image optomizers, etc)
-* Monitoring
+* hugo build optomizer (minification, image optomizers, etc) --ignoreCache --minify
 * 404 Nav bar has theme's icon
+* Google lighthouse github action
+  * https://justinribeiro.com/chronicle/2019/11/02/web-performance-audits-with-lighthouse-for-github-actions-released/
+  * https://github.com/marketplace/actions/lighthouse-ci-action
 
 ## Show your support
 
