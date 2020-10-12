@@ -4,6 +4,32 @@
   
   <url>
     <loc>https://alexbezek.io/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexbezek.io/posts/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexbezek.io/posts/rails-environment-vs-deploy-environment/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexbezek.io/posts/react-jsx/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexbezek.io/posts/mssql-server-linux-docker-errors/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexbezek.io/posts/linking-to-local-images-in-gatsby-frontmatter/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
