@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Cerner
+    url: https://www.cerner.com
+    location: Kansas City, Missouri
+    overview: Software Engineer on Consumer Facing Applications and Services
+  positions:
+  - designation: Associate Lead Software Engineer
+    start: September 2019
+    responsibilities:
+      - Veniam elit cillum proident dolor nulla excepteur reprehenderit nisi incididunt culpa minim cillum.
+      - Deserunt irure anim nostrud eu consequat et voluptate sit dolor.
+      - Ex occaecat culpa dolore adipisicing laboris ea proident reprehenderit.
+  - designation: Team Lead | Senior Software Engineer
+    start: March 2017
+    end: September 2019
+    responsibilities:
+      - Officia consequat eu ad qui.
+      - Elit irure ullamco deserunt dolore exercitation.
+      - Proident et laboris esse ut non eiusmod labore.
+      - Occaecat veniam do consequat tempor ex non magna non nisi.
+  - designation: Assoociate Software Engineer
+    start: September 2016
+    end: March 2017
+    responsibilities:
+      - Irure nisi id labore sunt elit velit irure.
+      - Cillum dolor magna aliqua eiusmod pariatur Lorem ut dolore aute est.
+      - Amet culpa elit officia consectetur fugiat exercitation est velit dolore ea commodo dolore ad cillum.
+      - Ullamco commodo cillum cillum ea sit exercitation amet cillum non.
+      - Cupidatat ut est voluptate voluptate sunt aliquip commodo sit esse exercitation laborum.
+  - designation: Software Engineer
+    start: June 2014
+    end: September 2016
+    responsibilities:
+      - Dolor ad fugiat non esse consequat veniam cillum amet cillum.
+      - Mollit sit in sunt ullamco.
+      - Incididunt do consequat veniam consectetur sunt.
+      - Tempor nostrud veniam commodo laborum nostrud id mollit reprehenderit nulla.
+  - designation: Software Engineer Intern
+    start: May 2013
+    end: August 2013
+    responsibilities:
+      - Cupidatat in irure magna pariatur nisi excepteur Lorem in aute laborum.
+      - In dolore cillum ex deserunt ipsum exercitation.
+- company:
+    name: Advise Technologies
+    url: https://www.advisecareers.com/
+    location: Manhattan, Kansas
+    overview: Advise Technolies creates software solutions for financial investors and advisors. I learned to work on a software system based around a field I had no knowledge of, but was able to adapt to the environment and find valuable solutions that benefited both our clients and employees.
+  positions:
+  - designation: Sofware Engineer Intern
+    start: May 2012
+    end: December 2013
+    responsibilities:
+    - My first real programming job! I learned fundamentals of working on a team, using source control, and contributing to a large code base.
+    - Laborum reprehenderit ipsum qui minim minim nostrud consequat deserunt.
+    - Esse ad dolore deserunt cupidatat id tempor ipsum mollit laborum.

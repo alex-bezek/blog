@@ -1,0 +1,18 @@
+# some information about you
+name: "Alex Bezek"
+nickname: "Alex"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/avatar.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "alex.liam.bezek@gmail.com"
+  phone: "913-626-1909"
+# a summary of what you do
+summary:
+- I am a Full Stack Software Engineer
+- I work on large scale SOA systems
+- I love to automate away problems
+- I'm passionate about good tooling and strong team cultures
+- I love learning new things every day
+- I love mentoring and learning from other passionate developers

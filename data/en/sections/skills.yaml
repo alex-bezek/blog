@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+- name: Ruby on Rails Development
+  icon: images/skills/rails-icon-4.jpg
+  summary: Ex non reprehenderit et laboris officia duis.
+  url: https://rubyonrails.org
+
+- name: Javascript Development
+  icon: images/skills/javascript.png
+  summary: Labore laboris laborum ipsum cupidatat esse excepteur sint nostrud adipisicing tempor irure.
+  url: TODO
+
+- name: Go Development
+  icon: images/skills/go.png
+  summary: Cupidatat veniam anim duis ea.
+  url: https://golang.org/
+
+- name: React
+  icon: images/skills/react.png
+  summary: Ea ipsum non ut anim.
+  url: TODO
+
+- name: Microservices
+  icon: images/skills/microservices.png
+  summary: Veniam tempor labore esse incididunt ex nisi adipisicing reprehenderit exercitation et consectetur ad.
+  url: TODO
+
+- name: AWS
+  icon: images/skills/aws.png
+  summary: Consequat quis non nostrud ad Lorem irure commodo sit occaecat dolore mollit et ipsum incididunt.
+  url: TODO
+
+- name: Docker
+  icon: images/skills/docker.svg
+  summary: Ipsum quis ut enim sunt ullamco tempor voluptate mollit laboris nulla sint.
+  url: TODO
+
+- name: Terraform
+  icon: images/skills/terraform.png
+  summary: Ut sunt proident nostrud duis quis mollit pariatur.
+  url: TODO
+
+- name: Spinnaker
+  icon: images/skills/spinnaker.png
+  summary: Quis qui tempor laboris labore proident irure sunt culpa tempor consequat nulla proident.
+  url: TODO
