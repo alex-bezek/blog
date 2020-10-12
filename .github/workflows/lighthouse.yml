@@ -1,6 +1,6 @@
 name: Lighthouse
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   static-dist-dir:
