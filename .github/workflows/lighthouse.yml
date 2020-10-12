@@ -1,9 +1,9 @@
-name: Percy.io Screenshot checker
+name: Lighthouse
 
 on: [push]
 
 jobs:
-  build:
+  static-dist-dir:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,9 +21,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Percy Test
-        uses: percy/snapshot-action@v0.1.0
+      - name: Run Lighthouse against a static dist dir
+        uses: treosh/lighthouse-ci-action@v3
         with:
-          build-directory: "public"
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+          # no urls needed, since it uses local folder to scan .html files
+          configPath: './lighthouserc.json'
+          uploadArtifacts: true
+          temporaryPublicStorage: true

@@ -49,9 +49,6 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * make a cool 404 page https://gohugo.io/templates/404/
 * hugo build optomizer (minification, image optomizers, etc) --ignoreCache --minify
 * 404 Nav bar has theme's icon
-* Google lighthouse github action
-  * https://justinribeiro.com/chronicle/2019/11/02/web-performance-audits-with-lighthouse-for-github-actions-released/
-  * https://github.com/marketplace/actions/lighthouse-ci-action
 
 ## Show your support
 
