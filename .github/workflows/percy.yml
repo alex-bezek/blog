@@ -1,5 +1,7 @@
 name: CI
+
 on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,9 +17,6 @@ jobs:
         with:
           hugo-version: '0.75.1'
           # extended: true
-            
-      - name: Install
-        run: bundle install
         
       - name: Build
         run: hugo --minify
