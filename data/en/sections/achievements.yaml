@@ -9,23 +9,58 @@ section:
   # hideTitle: true
 
 # Your achievements achievements
-# Dev Culture Council Member
-# Cerner Masters Award
-# Rookie of the Year award
-# Dev Achievement Award | Leadership
-# Site Reliability Engineering Spotlight Award
-# 19 Peer Recognition You Rock Awards
-# Speaker (Dev con talks, sre)
+# Dev Culture
+  # Council Member + Dev culture champion
+# Awards
+  # Cerner Masters Award
+  # Rookie of the Year award
+  # Dev Achievement Award | Leadership
+  # Site Reliability Engineering Spotlight Award
+  # 19 Peer Recognition You Rock Awards
+# Speaker
+  # Dev con talks,
+  # sre
+  # tech nudge
+# Teaching
+  # Mentoring, direct reports, etc
 achievements:
-- title: Dev Culture Council Member
-  image: images/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: images/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: images/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: images/achievements/woman-winner.jpg
-  summary: fa
+- title: Dev Culture
+  image: images/achievements/devculture.png
+  summary: I'm part of the Cerner Dev Culture council where we work to drive internal learning projects, put on events like tech talks and Devcon. We identify culture issues within our orgs and bring them to the Council to find actionable outcomes.
+- title: Awards
+  image: images/achievements/rookie-of-the-year.jpeg
+  # summary: I received the Rookie of the Year award, Dev Achievement Leadership award, SRE Spotlight award, and 19 Peer recognition You Rock Awards
+  summary: |
+    I've received multiple awards during my time at Cerner.
+
+    Rookie of the Year: For taking extra time to introduce our team to new best practices like automated jenkins builds and utilizing proper branching strategies.
+
+    Dev Achievement | Leadership: Created an onboarding process for multiple teams onto our Spinnaker deployment pipelines building documentation and meeting with teams to lead them throught he process.
+
+    SRE Spotlight: Worked on multiple side projects with the SRE team around Jenkins automation for building, testing, and deploying teams' Rails applications and services.
+
+    Cerner Masters: Awarded to the top 1% each year, I earned this through being highly effective across many teams helping them scaffold new applications and services using our best practices and being our deployments expert.
+
+    19 You Rock Peer Recognitions: An internal recognition award where teammates can nominate someone each quarter. Over the years I've received multiple of them because I enjoy helping others and would constantly answer questions and help people in our team chats.
+- title: Speaking
+  image: images/achievements/devcon-posters.jpg
+  summary: |
+    While I fear public speaking, I try to embrace it as I believe teaching helps enforce your own learning.
+
+    Devcon 2017: Flux Based architecture and redux with your UI
+
+    Devcon 2016: Push the Button, automated deployments with Docker with Marathon on Mesos.
+
+    Devops Breakfast Club: Presented on our Docker + Spinnaker work and then helped lead conversations at round tables over breakfast.
+
+    Team/Org presentations: Multiple presentations to our teams and org over projects and technical information to help the teams learn.
+- title: Mentorship
+  image: images/achievements/mentor.png
+  summary: |
+    I love teaching and mentoring others. As a kid I ran a Library program teaching kids and adults Origami.
+
+    At Cerner I participated in the DevCenter Mentorship program mentoring new hires through learning professional development process around code quality, code reviews, and feedback.
+
+    Was a team lead with 5 direct reports helping them grow technically and professionally.
+
+    I run 1-1's with individuals across teams that don't report to me to help them grow across multiple facets of their career at Cerner.

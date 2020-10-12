@@ -11,45 +11,45 @@ section:
 skills:
 - name: Ruby on Rails Development
   icon: images/skills/rails-icon-4.jpg
-  summary: Ex non reprehenderit et laboris officia duis.
+  summary: 6 years of experience creating Ruby on Rails Applications, Microservices, and reusable infra gems
   url: https://rubyonrails.org
 
 - name: Javascript Development
   icon: images/skills/javascript.png
-  summary: Labore laboris laborum ipsum cupidatat esse excepteur sint nostrud adipisicing tempor irure.
-  url: TODO
+  summary: 5 years of modern client side javascript development integrated into Rails Applications with an emphasis on performance.
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 - name: Go Development
   icon: images/skills/go.png
-  summary: Cupidatat veniam anim duis ea.
+  summary: A new hobbyist Go developer. After using it at work to build a custom Terraform Provider for work, I now use it for small projects and focus on learning more in my free time.
   url: https://golang.org/
 
 - name: React
   icon: images/skills/react.png
-  summary: Ea ipsum non ut anim.
-  url: TODO
+  summary: Created an Atomic Design based component library for product teams to use. Used React + Redux to create rich interactive web applications.
+  url: https://reactjs.org/
 
 - name: Microservices
   icon: images/skills/microservices.png
-  summary: Veniam tempor labore esse incididunt ex nisi adipisicing reprehenderit exercitation et consectetur ad.
-  url: TODO
+  summary: Worked on a large SOA system designing and implementing services and defining org standards around orchestration, distributed tracing, caching, and monitoring.
+  url: https://martinfowler.com/articles/microservices.html
 
 - name: AWS
   icon: images/skills/aws.png
-  summary: Consequat quis non nostrud ad Lorem irure commodo sit occaecat dolore mollit et ipsum incididunt.
-  url: TODO
+  summary: Migrated large scale live workloads to AWS with no downtime. Defined standards around IAM profiles, application and service infrastructure, and used services like Elasticache, WAF, and Lambda to enhance AWS workloads.
+  url: https://aws.amazon.com/
 
 - name: Docker
   icon: images/skills/docker.svg
-  summary: Ipsum quis ut enim sunt ullamco tempor voluptate mollit laboris nulla sint.
-  url: TODO
+  summary: Became obsessed with Docker after volunteering to learn chef for our deployments. Lead our teams in the process to move from Chef VM deployments to using Docker on DC/OS.
+  url: https://www.docker.com/
 
 - name: Terraform
   icon: images/skills/terraform.png
-  summary: Ut sunt proident nostrud duis quis mollit pariatur.
-  url: TODO
+  summary: Utilized Terraform for provisioning AWS infrastructure and New Relic alerts. Created our own internal Terraform Provider for managing configuration across our services.
+  url: https://www.terraform.io/
 
 - name: Spinnaker
   icon: images/skills/spinnaker.png
-  summary: Quis qui tempor laboris labore proident irure sunt culpa tempor consequat nulla proident.
-  url: TODO
+  summary: Created multiple reusable spinnaker pipelines to fully automate deploying containers and AWS infrastructure across multiple Global clouds each with multiple internal AZ's.
+  url: https://spinnaker.io/
