@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Cerner
+    url: https://www.cerner.com
+    location: Kansas City, Missouri
+    overview: Software Engineer on Consumer Facing Applications and Services
+  positions:
+  - designation: Associate Lead Software Engineer
+    start: September 2019
+    responsibilities:
+      - Shifted to be an individual contributor and technical leader moving freely to where I can provide the most value.
+      - Worked on key projects our team didn't have expertise in such as designing and creating infrastructure for client owned Vanity domains for our applications.
+      - Designed and implemented public facing APIs across multiple product teams.
+      - Pioneered migrating large workloads from on-prem to AWS defining infrastructure and utilizing Amazon services like Route53, Cloudfront, ALB, Lambda, and IAM.
+  - designation: Team Lead | Senior Software Engineer
+    start: March 2017
+    end: September 2019
+    responsibilities:
+      - Became a Team Lead with 5 direct reports and also operated as the Technical Product owner for our Full Stack Application and Microservices of our product.
+      - Designed and helped implement our team's React and Redux on Rails Application and Microservices for Consumer Wellbeing Educational content.
+      - Created fully our first automated Spinnaker Pipelines for building, testing, and deploying our Org's Rails components that was adopted and used by hundreds of components.
+  - designation: Assoociate Software Engineer
+    start: September 2016
+    end: March 2017
+    responsibilities:
+      - As an Associate Software Engineer I took on new technical projects with little background to pave the road for the rest of the team to be effective.
+      - Identified a risk in that we only had 1 other front end engineer, so I volunteered to learn React and helped the team onboard to start using it for all frontend work.
+      - Joined a Skunkworks team on the side to POC migrating our Rails Applications and Services to use automated Dockerized deployments.
+  - designation: Software Engineer
+    start: June 2014
+    end: September 2016
+    responsibilities:
+      - Started working on a .Net Wellness web application where I focused on re-writing the UI to be 508 compliant.
+      - In my free time, I implemented process improvements like setting up the team's first automated jenkins build, and evangelized using standard branching practices with SVN.
+      - Was selected to pioneer moving our solution to React on Rails. I became our team's knowledge expert on Rails as well as learning the Population Health's Rails ecosystem for authentication, deployments, and microservices.
+  - designation: Software Engineer Intern
+    start: May 2013
+    end: August 2013
+    responsibilities:
+      - Worked on the Incident Response Center team which runs alerting and dashboards for early alerting clients of issues with their system.
+      - Utilized Powershell to crawl internal device IPs searching for printer devices with errors pushing alerts to a Mongo database.
+      - Learned the Agile process partipating in Scrum, Planning, and code reviews with the team.
+- company:
+    name: Advise Technologies
+    url: https://www.advisecareers.com/
+    location: Manhattan, Kansas
+    overview: Advise Technologies creates software solutions for financial investors and advisors. I learned to work on a software system based around a field I had no knowledge of, but was able to adapt to the environment and find valuable solutions that benefited both our clients and employees.
+  positions:
+  - designation: Sofware Engineer Intern
+    start: May 2012
+    end: December 2013
+    responsibilities:
+    - My first real programming job! I learned fundamentals of working on a team, using source control, and contributing to a large code base.
+    - Worked on an internal C# desktop application for analytics of potential hedge fund clients.
