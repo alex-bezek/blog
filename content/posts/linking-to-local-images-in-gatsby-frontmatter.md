@@ -5,7 +5,7 @@ date: 2017-10-08T00:00:00.000Z
 description: Debugging how to link to local images using Gatsby's frontmatter system
 menu:
   sidebar:
-    name: Gatsby Frontmatter Local Images
+    name: Gatsby Frontmatter Images
     identifier: linking-to-local-images-in-gatsby-frontmatter
     weight: 500
 ---

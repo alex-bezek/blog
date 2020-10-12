@@ -5,7 +5,7 @@ date: 2017-10-10T00:00:00.000Z
 description: A common issue using Microsoft SQL Server's Docker container
 menu:
   sidebar:
-    name: Microsoft SQL Server Linux Docker Errors
+    name: Microsoft SQL Server Docker Error
     identifier: mssql-server-linux-docker-errors
     weight: 500
 ---

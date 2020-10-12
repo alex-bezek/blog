@@ -5,7 +5,7 @@ date: 2019-05-09T00:00:00.000Z
 description: Understanding Rails environment settings vs real deployment environments
 menu:
   sidebar:
-    name: Rails Environment VS Deploy Environment
+    name: Rails vs Deploy Environments
     identifier: rails-environment-vs-deploy-environment
     weight: 500
 ---
