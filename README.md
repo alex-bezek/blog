@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to blog 👋</h1>
+<h1 align="center">Welcome to Alexbezek.io, my personal website and blog. 👋</h1>
 <p>
   <a href="https://percy.io/alex-bezek/blog" target="_blank">
     <img alt="Version" src="https://percy.io/static/images/percy-badge.svg">
@@ -25,6 +25,7 @@ hugo server -w
 * Built using Hugo + the [Toha Theme](https://github.com/hossainemruz/toha/): [ex](https://github.com/hossainemruz/toha-example-site)
 * Uses Percy.io for visual regression tests triggered via github actions
 * Deployed via Vercel using the command `hugo  --ignoreCache --minify --baseUrl /`
+* Dependabot to auto update them submodule
 
 ## Author
 
@@ -47,6 +48,9 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * 404 Nav bar has theme's icon
 * All links open in new window https://github.com/spech66/hugo-best-practices#external-links-in-new-window
 * Theme post avatar is always default (fixed for now by overriding partial)
+* Percy updates for widths, disabling the changing text that always triggers a diff
+  * https://docs.percy.io/docs/sdk-configuration
+  * https://docs.percy.io/docs/animations
 * Google Lighthouse
   * Random Articles:
     * https://martijnvanvreeden.nl/10-ways-to-improve-your-hugo-website-performance/
