@@ -10,7 +10,7 @@
 
 > My Personal website and Blog for thinking outloud and documenting my thoughts for future me to cringe at.
 
-### ✨ [Deployment](alexbezek.io)
+### ✨ [Deployment](https://alexbezek.io)
 
 ## Local Development
 
