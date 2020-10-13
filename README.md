@@ -81,6 +81,7 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
     * site map, keyword searches, robots.txt
     * https://schema.org/
     * https://seorch.de/ https://varvy.com/
+    * https://github.com/thedaviddias/Front-End-Checklist
 
 ## Show your support
 
