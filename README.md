@@ -45,7 +45,6 @@ Contributions, issues and feature requests are welcome (especially spelling fixe
 Below is a hodge podge list of notes and issues I want to track but don't want to make full issues for yet.
 
 * make a cool 404 page https://gohugo.io/templates/404/
-* 404 Nav bar has theme's icon
 * All links open in new window https://github.com/spech66/hugo-best-practices#external-links-in-new-window
 * Theme post avatar is always default (fixed for now by overriding partial)
 * Percy updates for widths, disabling the changing text that always triggers a diff
