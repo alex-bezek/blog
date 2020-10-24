@@ -26,5 +26,6 @@ jobs:
         with:
           build-directory: "public"
           flags: --snapshot-files=index.html,404.html,posts/rails-environment-vs-deploy-environment/index.html
+          config: ./.percy.yml
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
