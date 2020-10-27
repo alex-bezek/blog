@@ -47,7 +47,9 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * make a cool 404 page https://gohugo.io/templates/404/
 * All links open in new window https://github.com/spech66/hugo-best-practices#external-links-in-new-window
 * Theme post avatar is always default (fixed for now by overriding partial)
+* Posts list seems to be in reverse chronological order.
 * Percy updates for widths, disabling the changing text that always triggers a diff
+* images for cards don't always scale to all be the same height
   * https://docs.percy.io/docs/sdk-configuration
   * https://docs.percy.io/docs/animations
 * Google Lighthouse
