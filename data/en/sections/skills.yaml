@@ -11,7 +11,7 @@ section:
 skills:
 - name: Ruby on Rails Development
   icon: images/skills/rails-icon-4.jpg
-  summary: 6 years of experience creating Ruby on Rails Applications, Microservices, and reusable infra gems
+  summary: 6 years of experience creating Ruby on Rails Applications, Microservices, and reusable infrastructure gems
   url: https://rubyonrails.org
 
 - name: Javascript Development

@@ -29,7 +29,7 @@ experiences:
     responsibilities:
       - Became a Team Lead with 5 direct reports and also operated as the Technical Product owner for our Full Stack Application and Microservices of our product.
       - Designed and helped implement our team's React and Redux on Rails Application and Microservices for Consumer Wellbeing Educational content.
-      - Created fully our first automated Spinnaker Pipelines for building, testing, and deploying our Org's Rails components that was adopted and used by hundreds of components.
+      - Created our first fully automated Spinnaker Pipelines for building, testing, and deploying our Org's Rails components that was adopted and used by hundreds of components.
   - designation: Assoociate Software Engineer
     start: September 2016
     end: March 2017

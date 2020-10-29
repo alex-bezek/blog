@@ -52,6 +52,7 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * images for cards don't always scale to all be the same height
   * https://docs.percy.io/docs/sdk-configuration
   * https://docs.percy.io/docs/animations
+* Make it so figures expand their images for viewing full screen
 * Google Lighthouse
   * Random Articles:
     * https://martijnvanvreeden.nl/10-ways-to-improve-your-hugo-website-performance/
