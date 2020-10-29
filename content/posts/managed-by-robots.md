@@ -1,7 +1,7 @@
 ---
 title: "Managed by Robots"
 hero: /images/posts/managed-by-robots/robot.jpeg
-date: 2020-10-27T08:07:45-04:00
+date: 2020-10-29T08:07:45-04:00
 description: An overview of the automation I've set up for this site.
 menu:
   sidebar:
