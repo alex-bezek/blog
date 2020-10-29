@@ -21,12 +21,6 @@ hugo new posts/a_new_post.md
 hugo server -w
 ```
 
-## High Level Features
-* Built using Hugo + the [Toha Theme](https://github.com/hossainemruz/toha/): [ex](https://github.com/hossainemruz/toha-example-site)
-* Uses Percy.io for visual regression tests triggered via github actions
-* Deployed via Vercel using the command `hugo  --ignoreCache --minify --baseUrl /`
-* Dependabot to auto update them submodule
-
 ## Author
 
 👤 **Alex Bezek**
@@ -45,13 +39,10 @@ Contributions, issues and feature requests are welcome (especially spelling fixe
 Below is a hodge podge list of notes and issues I want to track but don't want to make full issues for yet.
 
 * make a cool 404 page https://gohugo.io/templates/404/
-* All links open in new window https://github.com/spech66/hugo-best-practices#external-links-in-new-window
-* Theme post avatar is always default (fixed for now by overriding partial)
-* Posts list seems to be in reverse chronological order.
-* Percy updates for widths, disabling the changing text that always triggers a diff
+* Posts list are alphabetical, but they should be chronological imo
+* setup script that can optimize images or see if i can configure the bot. The sizes could be smaller and we can be more aggressive
+* make github social preview https://www.d-hagemeier.com/en/articles/generate-social-media-preview-images/
 * images for cards don't always scale to all be the same height
-  * https://docs.percy.io/docs/sdk-configuration
-  * https://docs.percy.io/docs/animations
 * Google Lighthouse
   * Random Articles:
     * https://martijnvanvreeden.nl/10-ways-to-improve-your-hugo-website-performance/
@@ -60,8 +51,10 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
       * Look into moving images into content folder so its part of the hugo asset pipeline
         * https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
         * https://scripter.co/hugo-leaf-and-branch-bundles/
+        * https://github.com/spech66/hugo-best-practices#content-organization
     * Unused CSS in bootstrap.min.css (my domain) and all.min.css (cloudflare)
     * unused jquery (my domain)
+    * perhaps bundle css/js without moving to webpack https://github.com/spech66/hugo-best-practices#css-and-javascript
     * preconnect to cloudflare for assets
     * Fix font loading
     * Images explicit width/height
@@ -84,7 +77,7 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
     * Posts page missing meta description
     * https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags
     * site map, keyword searches, robots.txt
-    * https://schema.org/
+    * https://schema.org/ https://github.com/spech66/hugo-best-practices#add-a-schemaorg-partial
     * https://seorch.de/ https://varvy.com/
     * https://github.com/thedaviddias/Front-End-Checklist
 
