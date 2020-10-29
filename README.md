@@ -43,6 +43,7 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * setup script that can optimize images or see if i can configure the bot. The sizes could be smaller and we can be more aggressive
 * make github social preview https://www.d-hagemeier.com/en/articles/generate-social-media-preview-images/
 * images for cards don't always scale to all be the same height
+* Make it so figures expand their images for viewing full screen
 * Google Lighthouse
   * Random Articles:
     * https://martijnvanvreeden.nl/10-ways-to-improve-your-hugo-website-performance/
