@@ -212,7 +212,7 @@ Long term, I need to update this site and the theme too rely on Hugo's internal 
 >}}
 <br />
 
-Of the things on this list, it's probably the easiest, lowest risk, simplest no there is. Why not give it a try?
+Of the things on this list, it's probably the easiest, lowest risk, simplest one there is. Why not give it a try?
 
 ## Conclusion
 

@@ -41,7 +41,7 @@ Below is a hodge podge list of notes and issues I want to track but don't want t
 * make a cool 404 page https://gohugo.io/templates/404/
 * Posts list are alphabetical, but they should be chronological imo
 * setup script that can optimize images or see if i can configure the bot. The sizes could be smaller and we can be more aggressive
-* make github social preview https://www.d-hagemeier.com/en/articles/generate-social-media-preview-images/
+* make github social preview https://www.d-hagemeier.com/en/articles/generate-social-media-preview-images/ and this https://medium.com/swlh/explore-new-github-readme-feature-7d5cc21bf02f
 * images for cards don't always scale to all be the same height
 * Make it so figures expand their images for viewing full screen
 * Google Lighthouse
